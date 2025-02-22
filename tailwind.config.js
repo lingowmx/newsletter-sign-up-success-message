@@ -6,12 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-      color:{
-        Red: 'hsl(4, 100%, 67%)',
-        Blue800: 'hsl(234, 29%, 20%)',
-        Blu700: 'hsl(235, 18%, 26%)',
-        Grey: 'hsl(0, 0%,58%)',
-        White: 'hsl(0, 0%, 100%)',
+      colors:{
+        red: 'hsl(4, 100%, 67%)',
+        blue800: 'hsl(234, 29%, 20%)',
+        blue700: 'hsl(235, 18%, 26%)',
+        grey: 'hsl(0, 0%,58%)',
+        white: 'hsl(0, 0%, 100%)',
+      },
+      fontFamily:{
+        roboto:["Roboto", "sens-serif"]
       }
     },
   },
