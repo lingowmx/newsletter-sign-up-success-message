@@ -1,5 +1,5 @@
 import listIcon from "../../assets/images/icon-list.svg"
-
+import PropTypes from 'prop-types';
 
 export const Success = ({setIsSubscribed}) => {
   return (
@@ -18,4 +18,7 @@ export const Success = ({setIsSubscribed}) => {
     </div>
   )
 }
-  
+
+Success.propTypes = {
+  setIsSubscribed: PropTypes.func.isRequired
+}

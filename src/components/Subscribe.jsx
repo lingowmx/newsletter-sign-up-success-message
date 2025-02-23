@@ -1,4 +1,4 @@
-
+import PropTypes from "prop-types";
 
 export const Subscribe = ({setIsSubscribed}) => {
   return (
@@ -23,4 +23,8 @@ export const Subscribe = ({setIsSubscribed}) => {
       </form>
     </div>
   )
+}
+
+Subscribe.propTypes = {
+  setIsSubscribed: PropTypes.func.isRequired
 }
