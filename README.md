@@ -1,8 +1,21 @@
-# React + Vite
+# 📨 This is a news letter practice realized with React and Tailwind css. 
+It was made to practice the use of the states and learn some tailwind new things
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
+## Preview
 
-Currently, two official plugins are available:
+---
+## Techs
+- **React**
+- **Tailwind CSS**
+- **PropTypes** for validations
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Learning
+1️⃣ **Disable the authomatic validation from the navigator**
+```jsx
+<form className="w-80 ml-8 mr-8 mb-8" onSubmit={handleSubmit} noValidate> </form>
+
+2️⃣ **Usage of flex-reverse**
+  <main className='bg-white flex flex-col lg:flex-row-reverse'> </main>
+

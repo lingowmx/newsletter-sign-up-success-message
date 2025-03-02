@@ -13,6 +13,9 @@ export default {
         grey: 'hsl(0, 0%,58%)',
         white: 'hsl(0, 0%, 100%)',
       },
+      backgroundImage:{
+        'custom-gradient': "linear-gradient(90deg, rgba(255,103,103,1) 43%, rgba(255,158,38,1) 72%, rgba(255,161,60,1) 100%)",
+      },
       fontFamily:{
         roboto:["Roboto", "sens-serif"]
       }
